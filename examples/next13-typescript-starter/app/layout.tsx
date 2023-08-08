@@ -2,6 +2,8 @@ import "./globals.css";
 import styles from "./layout.module.css";
 import { Metadata } from "next";
 
+export const runtime = 'edge';
+
 export default function RootLayout({
   children,
 }: {
